@@ -4,6 +4,14 @@ Welcome to my first e-commerce app! This is a modern web application built with 
 
 ---
 
+# 🚀 Deployment
+
+This app is deployed using Vercel. You can visit the live demo here:
+
+# 👉 [Live Demo](https://first-e-commerce-json-server.vercel.app/)
+
+---
+
 ## Features
 
 - **User-Friendly Admin Dashboard**: Manage products with an intuitive interface.
@@ -21,14 +29,6 @@ Welcome to my first e-commerce app! This is a modern web application built with 
 - **Tailwind CSS**: A utility-first CSS framework for custom designs.
 - **json-server**: A simple way to set up a mock REST API for development.
 - **Glitch**: Used for hosting the json-server for backend operations.
-
----
-
-# 🚀 Deployment
-
-This app is deployed using Vercel. You can visit the live demo here:
-
-# 👉 [Live Demo](https://first-e-commerce-json-server.vercel.app/)
 
 ---
 
