@@ -36,27 +36,19 @@ This app is deployed using Vercel. You can visit the live demo here:
 
 - **Product Listings**: Browse through a wide range of products.
 - **Product Details**: View detailed information about each product.
+- **Admin DashBoard**: CURD operation applyed on the API directly.
 - **Responsive Design**: Optimized for mobile, tablet, and desktop.
 - **Fast Performance**: Built with Vite for lightning-fast development and production builds.
-
----
-
-## 🛠️ Technologies Used
-
-- **Frontend**: React (Vite)
-- **Styling**: Tailwind CSS
-- **Routing**: React Router DOM
-- **API**: FakeStoreAPI
 
 ---
 
 ## 📦 Installation
 
 1. Clone the repository:
-   git clone https://github.com/
+   git clone https://github.com/emanmohamedsr/first-e-commerce-json-server
 
 2. Navigate to the project directory:
-   cd repo-name
+   cd first-e-commerce-json-server
 
 3. Install dependencies:
    npm install
