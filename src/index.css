@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+html {
+  scroll-behavior: smooth;
+}
+
+@theme {
+  --color-main-color: #dc353e;
+  --color-main-color-darker: #b1101b;
+  --animate-fadeIn: fadeIn .3s ease-in;
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+}
+
+.blur {
+  filter: blur(5px);
+  transition: filter 0.3s ease-out;
+}
+
+/* Custom scrollbar styling */
+.products-table::-webkit-scrollbar {
+  width: 12px;
+  /* Width of the scrollbar */
+  height: 12px;
+  /* Height of the scrollbar (for horizontal scrollbars) */
+}
+
+.products-table::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  /* Color of the track */
+  border-radius: 10px;
+}
+
+.products-table::-webkit-scrollbar-thumb {
+  background: #dc353e;
+  /* Color of the scrollbar thumb */
+  border-radius: 10px;
+}
+
+.products-table::-webkit-scrollbar-thumb:hover {
+  background: #9f2b31;
+  cursor: pointer;
+  /* Color of the scrollbar thumb on hover */
+}
