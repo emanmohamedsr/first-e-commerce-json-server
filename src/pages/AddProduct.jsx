@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import IncorrectTokenAlert from "../components/IncorrectTokenAlert";
 import SuccessAlert from "../components/SuccessAlert";
 export default function AddProduct() {
-	const apiUrl = import.meta.env.VITE_API_URL;
+	const apiUrl = "https://eager-galvanized-sponge.glitch.me";
 	// fetch product categories using useEffect
 	useEffect(() => {
 		fetch(`${apiUrl}/categories`)

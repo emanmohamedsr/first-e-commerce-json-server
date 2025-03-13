@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Product from "./Product";
 export default function ShowProducts() {
-	const apiUrl = import.meta.env.VITE_API_URL;
+	const apiUrl = "https://eager-galvanized-sponge.glitch.me";
 
 	const [products, setProducts] = useState([]);
 	const [cats, setCats] = useState([]);

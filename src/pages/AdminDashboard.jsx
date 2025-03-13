@@ -3,7 +3,7 @@ import ProductAsCell from "../components/productAsCell";
 import { Link } from "react-router-dom";
 
 export default function AdminDashboard() {
-	const apiUrl = import.meta.env.VITE_API_URL;
+	const apiUrl = "https://eager-galvanized-sponge.glitch.me";
 
 	const [products, setProducts] = useState([]);
 	const [cats, setCats] = useState([]);

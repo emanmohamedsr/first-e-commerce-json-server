@@ -4,7 +4,7 @@ import IncorrectTokenAlert from "../components/IncorrectTokenAlert";
 import SuccessAlert from "../components/SuccessAlert";
 import { useParams } from "react-router-dom";
 export default function EditProduct() {
-	const apiUrl = import.meta.env.VITE_API_URL;
+	const apiUrl = "https://eager-galvanized-sponge.glitch.me";
 	const params = useParams();
 	const [, setProduct] = useState({});
 	const fetchProductID = () => {

@@ -4,7 +4,7 @@ import Carousel from "../components/Carousel";
 import Rating from "../components/Rating";
 import noPro from "../assets/npporimg.png";
 export default function ProductDetails() {
-	const apiUrl = import.meta.env.VITE_API_URL;
+	const apiUrl = "https://eager-galvanized-sponge.glitch.me";
 	const params = useParams();
 	const [product, setProduct] = useState({});
 	useEffect(() => {
